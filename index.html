@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Dividida</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .left, .right {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            right: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <iframe src="https://ambientalsc.inlog.com.br/Rastreamento/Apresentacao/Autenticador/"></iframe>
+    </div>
+    <div class="right">
+        <iframe src="https://ambientalsc.inlog.com.br/Rastreamento/Apresentacao/Setores/Setores"></iframe>
+    </div>
+</body>
+</html>
